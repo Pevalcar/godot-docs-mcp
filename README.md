@@ -180,8 +180,8 @@ Contributions are welcome! Here's how you can help:
 
 ## Related
 
-- [DreamFus Client](https://github.com/Pevalcar/dreamfus-client) - The game client this was originally built for
 - [PI Coding Agent](https://github.com/earendil-works/pi-coding-agent) - The AI coding agent
+- [Godot Engine](https://godotengine.org/) - The fantastic game engine
 
 ## Support
 
