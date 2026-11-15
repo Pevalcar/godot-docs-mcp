@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "godot-docs": {
+      "command": "npx",
+      "args": ["-y", "godot-docs-mcp@latest"],
+      "description": "Godot Engine documentation search with BM25 full-text search",
+      "env": {
+        "GODOT_DOCS_LIMIT": "20"
+      }
+    }
+  }
+}

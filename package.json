@@ -1,0 +1,52 @@
+{
+  "name": "godot-docs-mcp",
+  "version": "0.1.0",
+  "description": "MCP Server for Godot Engine documentation search - TypeScript implementation with BM25 full-text search",
+  "main": "dist/index.js",
+  "bin": {
+    "godot-docs-mcp": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "index": "tsx src/index.ts --index",
+    "update": "tsx src/index.ts --update"
+  },
+  "keywords": [
+    "godot",
+    "godot-engine",
+    "documentation",
+    "mcp",
+    "model-context-protocol",
+    "ai-coding",
+    "assistant"
+  ],
+  "author": "DreamFus Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/godot-docs-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/godot-docs-mcp/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/godot-docs-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "config": {
+    "ts-node": {
+      "esm": true
+    }
+  }
+}
