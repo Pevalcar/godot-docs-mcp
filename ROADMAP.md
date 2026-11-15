@@ -12,6 +12,9 @@
 - [x] Zero-dependencies build (only @modelcontextprotocol/sdk)
 - [x] Works on Windows, Linux, macOS
 - [x] Offline functionality after indexing
+- [x] Published to npm as `godot-docs-mcp`
+- [x] Integrated with PI MCP system
+- [x] Configured for DreamFus Client project
 
 ## Phase 1: Production Ready
 
@@ -36,7 +39,6 @@
 
 ## Phase 4: Distribution
 
-- [ ] Publish to npm as `godot-docs-mcp`
 - [ ] GitHub releases
 - [ ] Docker image
 - [ ] Documentation website

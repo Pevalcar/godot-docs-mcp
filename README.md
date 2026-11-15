@@ -164,11 +164,12 @@ Contributions are welcome! Here's how you can help:
 
 ## Roadmap
 
+- [x] ✅ Publish to npm as `godot-docs-mcp`
+- [x] ✅ Integrate with PI MCP system
 - [ ] Full documentation scraping from docs.godotengine.org
 - [ ] Semantic search with embeddings (optional)
 - [ ] Multi-language support
-- [ ] Offline documentation bundle option
-- [ ] Custom DreamFus protocol documentation
+- [ ] DreamFus protocol documentation
 - [ ] Community-contributed recipes and examples
 
 ## Acknowledgments

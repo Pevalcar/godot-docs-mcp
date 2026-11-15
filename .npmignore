@@ -1,0 +1,41 @@
+# Source files
+src/
+
+# TypeScript definitions
+dist/*.d.ts
+dist/*.js.map
+
+# Development files
+examples/
+npm/
+tsconfig.json
+
+# Test files
+test/
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Documentation
+*.md
+!.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
